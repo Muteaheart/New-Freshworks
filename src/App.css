@@ -1,0 +1,661 @@
+*{
+  margin: 0%;
+  padding: 0;
+}
+
+.Container{
+  width: 100%;
+}
+
+.FirstContainer{
+  background-color: #0b1320;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+.ContainerWrapper{
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo{
+  height: 30px;
+  width: 70%;
+}
+
+.Navigations{
+display: flex;
+justify-content: space-around;
+height: 30px;
+align-items: center;
+width: 700px;
+font-weight: bold;
+}
+
+.Globe{
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.Container2{
+  background: linear-gradient(to right bottom, #E9E0F5, #7754a7);
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Delight{
+  font-weight: bold;
+  font-size: 80px;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.We{
+font-size: larger;
+}
+
+.Buttons{
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.Free{
+  background-color: #0b131e;
+  color: whitesmoke;
+  font-weight: bold;
+  width: 40%;
+}
+
+.Contact{
+  background-color: #c7b6d7;
+  color: black;
+  width: 40%;
+}
+
+.Wman{
+  height: 490px;
+  margin-bottom: -15px;
+}
+
+.Container3{
+  background-color: white;
+  height: 750px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.RightWords{
+  font-size: 30px;
+  height: 300px;
+  display: flex;
+ font-weight: bold;
+ margin-top: -50px;
+ color: #0b1320;
+ align-items: center;
+ font-weight: bold;
+ font-size: 35px;
+}
+.ButTag{
+  display: flex;
+  height: 100%;
+  width: 650px;
+  align-content: flex-start;
+  justify-content: space-around;
+}
+.LeftBut{
+display: flex;
+flex-direction: column;
+height: 350px;
+width: 100px;
+align-items: flex-end;
+justify-content: flex-start;
+
+}
+
+.RightBut{
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 100px;
+  align-items: center;
+}
+.B1{
+  height: 75px;
+  width: 250px;
+  border-radius: 7%;
+  color: #0b1320;
+  font-weight: bold;
+  font-size: larger;
+  border-color: transparent;
+}
+.B2{
+  height: 75px;
+  width: 250px;
+  border-radius: 7%;
+  color: #0b1320;
+  font-weight: bold;
+  font-size: larger;
+  border-color: transparent;
+}
+.B3{
+  height: 75px;
+  width: 250px;
+  border-radius: 7%;
+  color: #0b1320;
+  font-weight: bold;
+  font-size: larger;
+  border-color: transparent;
+}
+.RB1{
+  height: 75px;
+  width: 250px;
+  border-radius: 7%;
+  color: #0b1320;
+  font-weight: bold;
+  font-size: larger;
+  border-color: transparent;
+}
+.RB2{
+  height: 75px;
+  width: 250px;
+  border-radius: 7%;
+  color: #0b1320;
+  font-weight: bold;
+  font-size: larger;
+  border-color: transparent;
+}
+.RB3{
+  height: 75px;
+  width: 250px;
+  border-radius: 7%;
+  color: #0b1320;
+  font-weight: bold;
+  font-size: larger;
+  border-color: transparent;
+}
+
+.Container4{
+  background-color: #0b1320;
+  height: 700px;
+  width: 100%;
+  color: whitesmoke;
+  
+}
+
+.TopContain{
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.Friction{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+.Fresh{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MiddleContain{
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+}
+.LeftContain{
+  width: 40%;
+}
+.YellowImage{
+  height: 90px;
+}
+
+.GetUp{
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.StartTrial{
+  background-color: #0b1320;;
+  height: 50px;
+  width: 200px;
+  color: red;
+  border: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.RightContain{
+  width: 40%;
+}
+.dollar{
+  height: 90px;
+}
+.Choose{
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.See{
+  background-color: #0b1320;
+  height: 50px;
+  width: 200px;
+  color: red;
+  border: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contain41{
+  display: flex;
+  justify-content: space-around;
+  height: 350px;
+  background-color: #0b1320;
+  color: white;
+}
+.Leftdown{
+  width: 40%;
+}
+.Rightdown{
+  width: 40%;
+}
+.purple{
+  height: 90px;
+}
+.Build{
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.Visit{
+  background-color: #0b1320;;
+  height: 50px;
+  width: 200px;
+  color: red;
+  border: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Rightdown{
+  width: 40%;
+}
+.Create{
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.Learn{
+  background-color: #0b1320;;
+  height: 50px;
+  width: 200px;
+  color: red;
+  border: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Container5{
+  height: 300px;
+  width: 100%;
+}
+.Contain51{
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  flex-direction: column;
+  color: #0b131e;
+}
+.We{
+  color: black;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Contain52{
+  background-color: white;
+  height: 100%;
+}
+.Line1{
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.pearson{
+  width: 80px;
+  height: 60px;
+}
+.brewdog{
+  width: 70px;
+  height: 50px;
+}
+.bridgestone{
+  width: 70px;
+  height: 50px;
+}
+.travix{
+  width: 70px;
+  height: 50px;
+}
+.klarna {
+  width: 70px;
+  height: 50px;
+}
+.vicemedia{
+  width: 80px;
+  height: 180px;
+}
+.Line2{
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.deichman{
+  width: 70px;
+  height: 50px;
+}
+.waterson{
+  width: 70px;
+  height: 50px;
+}
+.fiver{
+  width: 70px;
+  height: 50px;
+}
+.exabytes{
+  width: 100px;
+  height: 50px;
+}
+.shoil{
+  width: 70px;
+  height: 50px;
+}
+.multichoice{
+  width: 70px;
+  height: 50px;
+}
+.Line3{
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bluenile{
+  width: 70px;
+  height: 50px;
+}
+.trainline{
+  width: 70px;
+  height: 50px;
+}
+.engels{
+  width: 70px;
+  height: 50px;
+}
+.itv{
+  width: 70px;
+  height: 50px;
+}
+.delivery{
+  width: 70px;
+  height: 50px;
+}
+.katz{
+  width: 90px;
+  height: 50px;
+}
+.Container6{
+  background-color: whitesmoke;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.waterquote{
+  height: 170px;
+  width: 650px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.watersonQ{
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.Fteam{
+  background-color: whitesmoke;
+  height: 175px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+.results{
+  display: flex;
+  justify-content: center;
+}
+.Alex{
+  font-weight: bold;
+  font-size: x-large;
+  height: 100px;
+}
+.dots{
+  height: 50px;
+  width: 70px;
+}
+.Container7{
+  background-color: white;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Aspire{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Pix{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 50px;
+}
+.mangreen{
+  height: 300px;
+  width: 300px;
+}
+.threepeople{
+  height: 300px;
+  width: 300px;
+}
+.blacklady{
+  height: 300px;
+  width: 300px;
+}
+.womanman{
+  height: 300px;
+  width: 300px;
+}
+.LifeContain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+
+}
+.life{
+  background-color: #0b131e;
+  color: whitesmoke;
+  font-weight: bold;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: larger;
+  border-color: transparent;
+}
+.Container8{
+ background-color: #0b131e;
+height: 500px;
+background-image: url(./Freshworks\ images/panel.png);
+background-repeat: no-repeat;
+color: white;
+  }
+  .Ready{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  .Join{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-size: large;
+  }
+  .Customers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+  }
+  .Sales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .CS{
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    color: #0b131e;
+    border-color: transparent;
+  }
+  .Container9{
+    background-color: white;
+  height: 350px;
+  width: 15%;
+  color: #0b131e;
+
+  }
+  .FWCon{
+    height: 90px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+  }
+  .FW{
+    width: 70px;
+  height: 50px;
+  }
+.lists{
+  margin-left: 60px;
+}
+.BigCon{
+display: flex;
+color: #0b131e;
+background-color: white;
+}
+.Company{
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+.Social{
+  width: 20%;
+}
+.with{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.F1{
+  display: flex;
+justify-content: space-around;
+height: 50px;
+}
+.facebook2{
+  height: 40px;
+  width: 50px;
+}
+.twitter2{
+  height: 40px;
+  width: 50px;
+}
+.youtube{
+  height: 40px;
+  width: 50px;
+}
+.F2{
+  display: flex;
+justify-content: space-around;
+height: 50px;
+}
+.linkedin{
+  height: 40px;
+  width: 50px;
+}
+.glassdoor{
+  height: 40px;
+  width: 50px;
+}
+.Footer{
+  background-color: whitesmoke;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  color: #0b131e;
+}
+.Terms{
+  display: flex;
+  align-items: center;
+  width: 70%;
+  align-items: center;
+  margin-left: 30px;
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
