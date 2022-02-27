@@ -1,4 +1,68 @@
-*{
+.Card{
+  width: 600px;
+  background-color: brown;
+  height: 90px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
   margin: 0%;
   padding: 0;
 }
@@ -658,4 +722,4 @@ height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
