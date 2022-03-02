@@ -1,109 +1,93 @@
-import React from "react"
+import React, {useState} from "react";
 import "./App.css"
-import mutiatM from "./Map images/mutiatM.jpg"
-import BashOye from "./Map images/BashOye.jpg"
-import balikisM from "./Map images/balikisM.jpg"
-import HammedOye from "./Map images/HammedOye.jpg"
-import ummahJemima from "./Map images/ummahJemima.jpg"
-import MercyJ from "./Map images/MercyJ.jpg"
-import mayaAng from "./Map images/mayaAng.jpg"
-import Anonymous from "./Map images/Anonymous.jpg"
-import yemiJohnson from "./Map images/yemiJohnson.jpg"
-import ShotayoM from "./Map images/ShotayoM.jpg"
+// import mutiatM from "./Map images/mutiatM.jpg"
+// import BashOye from "./Map images/BashOye.jpg"
+// import balikisM from "./Map images/balikisM.jpg"
+// import HammedOye from "./Map images/HammedOye.jpg"
+// import ummahJemima from "./Map images/ummahJemima.jpg"
+// import MercyJ from "./Map images/MercyJ.jpg"
+// import mayaAng from "./Map images/mayaAng.jpg"
+// import Anonymous from "./Map images/Anonymous.jpg"
 
 function App () {
-const OAUStudent = [
-  { 
-    image: <img src = {mutiatM} className="mutiatM"/>,
-    Name, "Mutiat Mustapha":
-    Class, "300, Level",
-    Age, 25:
-    Sex, "Female":
-    Address, 3: "2, Olukosii off Amoo, Agege, Lagos"
-  },
-  {
-    image: <img src = {BashOye} className="BashOye"/>,
-    Name, "Oyedokun Bashiru":
-    Class, 500: "Level",
-    Age, 28:
-    Sex, "Male":
-    Address, 5: "Soga Tikare Close, off Church street Alapere",
-  },
-  {
-    image: <img src = {balikisM} className="balikisM"/>,
-    name, "Balikis Mustapha":
-    class, 100: "Level",
-    age, 16:
-    sex, "Female":
-    address, " 4, Ekiti State University, Ekiti",
-  },
-  {image: <img src = {HammedOye} className="HammedOye"/>,
-    name, "Hammed Oyedokun":
-    class, 600: "Level",
-    age: 28,
-    sex: "Male",
-    address, " 3, Sola Allyson drive, Gbagada Lagos",
-  },
-  {
-    image: <img src = {ummahJemima} className="ummahJemima"/>,
-    name, "Ummah Jemima":
-    class, 400: "Level",
-    age, 29:
-    sex, "Female":
-    address, " 3, Lugbe off Kubwa Abuja",
-  },
-  {
-    image: <img src = {MercyJ} className="MercyJ"/>,
-    name, "Jonathan Mercy":
-    class, "200, Level",
-    age, 21:
-    sex, "Female":
-    address, " 3, Asokoro drive, beside printing and minting, Abuja",
-  },
-  {
-    image: <img src = {mayaAng} className="mayaAng"/>,
-    Name, "Maya Angelou":
-    Class, 800: "Level",
-    Age, 35:
-    Sex, "Female":
-    Address, " 101, Westerfield college, Alagomeji Yaba",
-  },
-  {
-    image: <img src = {Anonymous} className="Anonymous"/>,
-    Name, "Anonymous":
-    Class, 400: "Level",
-    Age, 28:
-    Sex, "Female":
-    Address, " 19, Omole phase 1, omole phase 2",
-  },
-  {
-    image: <img src = {yemiJohnson} className="yemiJohnson"/>,
-    Name, "Yemi Johnson":
-    Class, 100: "Level",
-    Age, 22:
-    Sex, "Female":
-    Address, " 9, Deji Oworo off church street, Ikota",
-  },
-  {
-    image: <img src = {ShotayoM} className="shotayoM"/>,
-    Name, "Shotayo Maryam":
-    Class, 300: "Level",
-    Age, 25:
-    Sex, "Female":
-    Address, "3, Iyana Ipaja, Egbeda Lagos",
-  },
+//  Function for holding databse
+  const [text, setText] = useState("");
+  const [OAUStudent, setOAUStudent] = useState([
 
-]
+  { 
+    id: 1,
+    Name: "Mutiat Mustapha",
+    Class: "300 Level",
+    Age: 25,
+    Comment: "Organizer"
+  },
+  {
+    id: 2,
+    Name: "Oyedokun Bashiru",
+    Class: " 500 Level",
+    Age: 28,
+    Comment: "Chaperon"
+  },
+  {
+    id: 3,
+    Name: "Balikis Mustapha",
+    Class: "100 Level",
+    Age: 16,
+    Comment: "Minor"
+    },
+  {
+    id: 4,
+    Name: "Hammed Oyedokun",
+    Class: "600 Level",
+    Age: 28,
+    Comment: "Chairman"
+  },
+  {
+   id: 5,
+    Name: "Ummah Jemima",
+    Class: " 400 Level",
+    Age: 29,
+    Comment: "Writer"
+  },
+  {
+    id: 6,
+    Name: "Jonathan Mercy",
+    Class: "200 Level",
+    Age: 21,
+    Comment: "Asisst"
+  },
+  {
+    id: 7, 
+    Name: "Maya Angelou",
+    Class: "300 Level",
+    Age: 35,
+    Comment: "Poet"
+  },
+]);
+
+const Post = ()=> {
+  const items ={
+    id : OAUStudent.length + 1,
+    Name: text,
+  };
+  setOAUStudent ([...OAUStudent, items]);
+  setText ("");
+};
 
   return (
 <div className="ContainCard">
+  <br/>
+  <input value={text} onChange={(e)=>{setText(e.target.value)
+
+  }} placeholder="Input Name"/>
+  <br/>
+  <button onClick={()=> {Post()}}> Post</button>
   {OAUStudent.map((props)=>(
     <div className="Card">
-      <div>Name:{props.name}</div>
-      <div>Nge:{props.age}</div>
-      <div>Class:{props.class}</div>
-      <div>Sex: {props.sex}</div>
-      <div>Address:{props.address}</div>
+      <div>Name:{props.Name}</div>
+      <div>Age:{props.Age}</div>
+      <div>Class:{props.Class}</div>
+      <div>Comment:{props.Comment}</div>
     </div>
   ))} 
 </div>
@@ -112,37 +96,6 @@ const OAUStudent = [
 }
 
 export default App
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -441,3 +394,5 @@ export default App
 // };
 
 // export default App;
+
+
